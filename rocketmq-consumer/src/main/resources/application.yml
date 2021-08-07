@@ -1,0 +1,8 @@
+server:
+  port: 6200
+spring:
+  application:
+    name: rocketmq-consumer
+rocketmq:
+  # rocketMQ NameServer注册中心
+  name-server: localhost:9876

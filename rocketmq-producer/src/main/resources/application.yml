@@ -1,0 +1,14 @@
+server:
+  port: 6100
+spring:
+  application:
+    name: rocketmq-producer
+rocketmq:
+  # rocketMQ NameServer注册中心
+  name-server: localhost:9876
+  # 配置消息生产者组
+  producer:
+    # 消息生产者组名称
+    group: producer
+    # 发送消息超时时长 默认3000ms
+    send-message-timeout: 3000
